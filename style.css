@@ -1,3 +1,45 @@
+@font-face {
+  font-family: "MY TURTLE";
+  src: url(./fonts/MYTURTLE.TTF);
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: "Popins";
+  src: url(./fonts/Poppins-Medium.ttf);
+  font-style: normal;
+  font-display: auto;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Poor Story";
+  src: url(./fonts/PoorStory-Regular.ttf);
+  font-style: normal;
+  font-display: auto;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Mula";
+  src: url(./fonts/Mula-Regular.otf);
+  font-style: normal;
+  font-display: auto;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Mula";
+  src: url(./fonts/Mula-Medium.otf);
+  font-style: normal;
+  font-display: auto;
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Mula";
+  src: url(./fonts/Mula-Black.otf);
+  font-style: normal;
+  font-display: auto;
+  font-weight: 700;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -67,6 +109,7 @@ body {
   font-size: 1.4rem;
   line-height: 2.4rem;
   font-weight: 500;
+  font-family: "Popins";
   color: rgba(255, 255, 255, 0.7);
 }
 .content {
