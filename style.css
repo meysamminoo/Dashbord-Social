@@ -130,10 +130,19 @@ body {
   height: 13rem;
   grid-row: 1/2;
   grid-column: 1/2;
+  display: grid;
+  grid-template: 1fr / 1fr 2fr 1fr;
+  align-items: center;
+  padding: 2.6rem 1.6rem;
 }
 .social {
   grid-row: 1/2;
   grid-column: 2/5;
+  padding: 2.5rem 2.1rem;
+  display: grid;
+  grid-template: 1fr / repeat(4, 1fr);
+  justify-content: space-between;
+  align-items: center;
 }
 .sales {
   grid-row: 2/4;
@@ -146,4 +155,112 @@ body {
 .running-task {
   grid-row: 2/6;
   grid-column: 3/5;
+}
+
+.avatar-profile {
+  width: 7.6rem;
+  height: 7.6rem;
+  background-color: #1c3981;
+  box-shadow: 0px 10.1333px 13.9333px #13224f;
+  border-radius: 50%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.info-profile {
+  font-family: "Mula";
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.info-profile h3 {
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.info-profile p {
+  color: #8798cc;
+  font-size: 1.4rem;
+  line-height: 2.6rem;
+  font-weight: 400;
+}
+.dropdown-profile {
+  display: grid;
+  justify-content: center;
+}
+.dropdown-profile span {
+  width: 3rem;
+  height: 3rem;
+  background-color: #1c3981;
+  border-radius: 50%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.dropdown-profile span::before {
+  content: url(./assets/Stroke\ 1.png);
+}
+.box-social {
+  display: grid;
+  grid-template: 1fr / 1fr 2fr 1fr;
+  padding: 1.6rem 1.1rem;
+  background-color: #25376c;
+  border-radius: 2.2rem;
+  margin-right: 1.8rem;
+  height: 8rem;
+}
+.box-social:last-child {
+  margin-right: 0;
+}
+.info-social {
+  font-family: "Mula";
+  margin-left: 1rem;
+}
+.info-social p {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  color: #8091c5;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.info-social h3 {
+  font-size: 2rem;
+  line-height: 2.6rem;
+  color: #ffffff;
+  font-weight: 700;
+}
+.percent {
+  display: grid;
+  align-items: end;
+  font-family: "Mula";
+  padding: 0.6rem;
+}
+.percent-text {
+  font-size: 1.4rem;
+  line-height: 1.2rem;
+  color: #8091c5;
+  font-weight: 400;
+}
+.btn-task {
+  width: 20rem;
+  height: 6.8rem;
+  background: linear-gradient(0deg, #1f3472 0%, #5f72b8 100%);
+  border-radius: 7.18rem;
+  box-shadow: 11.5014px 34.5041px 34.5041px rgba(0, 0, 0, 0.08),
+    0px 0px 0px 5.75068px #314b94,
+    0px 2.87534px 8.62602px 5.75068px rgba(0, 0, 0, 0.1),
+    inset 0px -23.0027px 0px 28.7534px rgba(0, 0, 0, 0.07),
+    inset 0px 14.3767px 17.252px 8.62602px rgba(0, 0, 0, 0.03),
+    inset -2.87534px -5.75068px 11.5014px 2.87534px rgba(0, 0, 0, 0.08);
+  font-family: "Mula";
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #fffeff;
+  text-shadow: 0px -1.43767px 0px #9db5ff;
+  cursor: pointer;
 }
