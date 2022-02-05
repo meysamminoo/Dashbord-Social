@@ -39,6 +39,13 @@
   font-display: auto;
   font-weight: 700;
 }
+@font-face {
+  font-family: "Yaldevi Colombo";
+  src: url(./fonts/YaldeviColombo-Regular.ttf);
+  font-style: normal;
+  font-display: auto;
+  font-weight: 400;
+}
 
 * {
   padding: 0;
@@ -147,6 +154,13 @@ body {
 .sales {
   grid-row: 2/4;
   grid-column: 1/3;
+  background: linear-gradient(0deg, #1f3472 0%, #2e4589 100%);
+  box-shadow: 11.5014px 34.5041px 34.5041px rgba(0, 0, 0, 0.08),
+    0px 0px 0px 5.75068px #314b94,
+    0px 2.87534px 8.62602px 5.75068px rgba(0, 0, 0, 0.1),
+    inset 0px 14.3767px 17.252px 8.62602px rgba(0, 0, 0, 0.03),
+    inset -2.87534px -5.75068px 11.5014px 2.87534px rgba(0, 0, 0, 0.08);
+  padding: 1.6rem 2rem;
 }
 .revenume {
   grid-row: 4/6;
@@ -263,4 +277,66 @@ body {
   color: #fffeff;
   text-shadow: 0px -1.43767px 0px #9db5ff;
   cursor: pointer;
+}
+
+.head {
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.left-sale {
+  display: grid;
+}
+.left-sale h3 {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Mula";
+  margin-bottom: 1rem;
+}
+.left-sale p {
+  color: #8798cc;
+  font-size: 3rem;
+  line-height: 2.5rem;
+  font-family: "Poor Story";
+}
+.right-sale {
+  display: grid;
+  justify-content: end;
+  position: relative;
+}
+.select {
+  width: 14rem;
+  margin-bottom: 1rem;
+  font-family: "Popins";
+  background-color: transparent;
+  color: #8798cc;
+  font-size: 1.4rem;
+  line-height: 1.2rem;
+  border: 1px solid rgba(200, 157, 255, 0.18);
+  border-radius: 5rem;
+  padding: 1.2rem 1.7rem;
+  -webkit-appearance: none;
+}
+.right-sale::before {
+  content: url(./assets/Stroke\ 1.png);
+  width: 3rem;
+  height: 3rem;
+  position: absolute;
+  right: 0.6rem;
+  top: 0.4rem;
+  background-color: #1c3981;
+  border-radius: 50%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  pointer-events: none;
+}
+.right-sale p {
+  color: #8798cc;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  font-family: "Yaldevi Colombo";
 }
