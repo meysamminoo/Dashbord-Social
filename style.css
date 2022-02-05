@@ -165,6 +165,9 @@ body {
 .revenume {
   grid-row: 4/6;
   grid-column: 1/3;
+  padding: 1.6rem 2rem;
+  box-shadow: 0px 0px 40px #0a163d;
+  background-color: #172a61;
 }
 .running-task {
   grid-row: 2/6;
@@ -285,10 +288,11 @@ body {
   align-items: center;
   margin-bottom: 1rem;
 }
-.left-sale {
+.left-side {
   display: grid;
+  padding-left: 1rem;
 }
-.left-sale h3 {
+.left-side h3 {
   font-size: 1.8rem;
   line-height: 2.6rem;
   color: #fff;
@@ -296,13 +300,13 @@ body {
   font-family: "Mula";
   margin-bottom: 1rem;
 }
-.left-sale p {
+.left-side p {
   color: #8798cc;
   font-size: 3rem;
   line-height: 2.5rem;
   font-family: "Poor Story";
 }
-.right-sale {
+.right-side {
   display: grid;
   justify-content: end;
   position: relative;
@@ -320,7 +324,7 @@ body {
   padding: 1.2rem 1.7rem;
   -webkit-appearance: none;
 }
-.right-sale::before {
+.right-side::before {
   content: url(./assets/Stroke\ 1.png);
   width: 3rem;
   height: 3rem;
@@ -334,7 +338,7 @@ body {
   align-items: center;
   pointer-events: none;
 }
-.right-sale p {
+.right-side p {
   color: #8798cc;
   font-size: 1.2rem;
   line-height: 1.2rem;
