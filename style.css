@@ -128,6 +128,7 @@ img {
   width: 4.2rem;
   margin-left: 2.4rem;
   height: 4.2rem;
+  cursor: pointer;
 }
 .perioud {
   margin-right: 5rem;
@@ -162,6 +163,7 @@ img {
   grid-template: 1fr / 1fr 2fr 1fr;
   align-items: center;
   padding: 2.6rem 1.6rem;
+  background: #172a61;
 }
 .social {
   grid-row: 1/2;
@@ -171,6 +173,7 @@ img {
   grid-template: 1fr / repeat(4, 1fr);
   justify-content: space-between;
   align-items: center;
+  background: #172a61;
 }
 .sales {
   grid-row: 2/4;
@@ -242,7 +245,7 @@ img {
   align-items: center;
 }
 .dropdown-profile span::before {
-  content: "url(./assets/Stroke\ 1.png)";
+  content: url(./assets/Stroke\ 1.png);
 }
 .box-social {
   display: grid;
